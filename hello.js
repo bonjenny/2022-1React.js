@@ -7,3 +7,4 @@ age=30;
 // 2주차 - let, var
 // alert(name);
 console.log(age)
+// 4/5
