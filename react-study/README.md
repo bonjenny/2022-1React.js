@@ -1,4 +1,6 @@
 # 리액트 스터디
+React Study App
+5/9 ~
 
 # Getting Started with Create React App
 
