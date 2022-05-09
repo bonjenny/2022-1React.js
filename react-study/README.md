@@ -1,6 +1,6 @@
 # 리액트 스터디
-React Study App $nbsp;
-5/9 ~
+React Study App \
+5/9 ~ ing
 
 # Getting Started with Create React App
 
