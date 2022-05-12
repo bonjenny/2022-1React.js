@@ -1,11 +1,26 @@
-function Clock(props) {
-  return (
-    <h3>현재 시간은 [{props.date.toLocaleTimeString()}] 입니다.
-    </h3>
-  );
-}
-function tick() {
-  ReactDOM.render(<Clock date={new Date()}/>, document.getElementById('root'));
+// 바인딩처리 방법(1)
+class EventHandling extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isToggleOn: true
+    }
+    // 바인딩처리 방법(2)
+    // this.handleClick = this.handleClick.bind(this);
+  }
+  // 바인딩처리 방법(1)
+  handleClick = () => {
+    this.setState(state => ({
+      isToggleOn: !this.state.isToggleOn
+    }))
+  }
+  render() {
+    return (
+      <button onClick={this.handleClick}>
+        {this.state.isToggleOn ? "ON" : "OFF"}
+      </button>
+    );
+  }
 }
 
-setInterval(tick, 1000);
+ReactDOM.render(<EventHandling/>, document.getElementById('root'))
