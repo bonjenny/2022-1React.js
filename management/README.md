@@ -1,3 +1,18 @@
+# react-management
+
+### React.js TIL
+https://walnut-flyaway-f2b.notion.site/1-Create-React-App-06cf2b5e1bce471394b8ebbcadb8482d
+
+### 참고 유튜브
+https://www.youtube.com/playlist?list=PLRx0vPvlEmdCED62ZIWCbI-6G_jcwmuFB
+
+### Node.js 설치 후
+node -v
+npm remove tar --save
+npm install tar@6 --save
+npx -g create-react-app
+create-react-app management
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
