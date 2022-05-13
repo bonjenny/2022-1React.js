@@ -1,4 +1,5 @@
-# react-management
+# Management System
+본 프로젝트는 React.js 공부 목적으로 만들어진 고객 관리 시스템(Management System)입니다.
 
 ### React.js TIL
 https://walnut-flyaway-f2b.notion.site/1-Create-React-App-06cf2b5e1bce471394b8ebbcadb8482d
