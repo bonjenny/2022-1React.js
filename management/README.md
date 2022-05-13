@@ -1,7 +1,3 @@
-# 리액트 스터디
-React Study App \
-5/9 ~ ing
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
