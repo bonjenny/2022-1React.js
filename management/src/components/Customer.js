@@ -6,7 +6,7 @@ class Customer extends React.Component {
         return(
             <div>
                 <h2>엄지희</h2>
-                <p>020224</p>
+                <p>02-02-24</p>
                 <p>여자</p>
                 <p>대학생</p>
             </div>
